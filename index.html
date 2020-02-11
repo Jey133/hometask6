@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>hometask6</title>
+</head>
+<body>
+
+
+<script>
+	var mapFunction = function(array, fn) {
+		var mapArray = [];
+
+		for (var i = 0; i < array.lenght; i++) {
+			var result = fn(array[i], i, array);
+			mapArray.push(result);
+		}
+		return mapArray;
+	}
+</script>
+	
+</body>
+</html>
